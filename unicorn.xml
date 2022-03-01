@@ -44,8 +44,8 @@
 			<description>Even the most magically inept Unicorn can manipulate magic to a minor extent and often use it to navigate the world around them. You have the ability to cast Prestidigitation and Mage Hand at will. </description>
 		</sheet>
 		<rules>
-			<grant type="Spell" id="ID_PHB_PRESTIDIGITATION" />
-			<grant type="Spell" id="ID_PHB_MAGE_HAND" />
+			<grant type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
 		</rules>
 	</element>
 	<element name="Pony" type="Language" source="My Little Pony: Friendship is Magic" id="ID_LANGUAGE_PONY">
