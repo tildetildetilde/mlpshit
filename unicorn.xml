@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.2">
+			<file name="unicorn.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/unicorn.xml" />
+		</update>
+	</info>	
+	<element name="Unicorn" type="Race" source="My Little Pony: Friendship is Magic" id="ID_LF_MLP_RACE_UNICORN">
+		<description>
+			<p>You are a unicorn, a noble and respected pony with the ability to manipulate the world around you through the use of magic. What you lack in physical strength, you make for in grace and dexterity.</p>
+			<p><b>Ability Score Increase</b></p>
+			<p>Your Wisdom increases by 2. Your Dexterity increases by 2. Your strength decreases by 1.</p>
+			<p><b>Age</b></p>
+			<p>Ponies in Equestria have a similar lifespan to humans in our world. A pony reaches maturity around 18 years old, while an 80 year old pony is nearing the end of its life. Alicorns are an exception, as they do not age.</p>
+			<p><b>Alignment</b></p>
+			<p>Most ponies are Good at heart, erring towards love and acceptance rather than hate. Though some may lose their way, redemption is never impossible for most. As with every group of complex people, there are sometimes exceptions to this.</p>
+			<p><b>Size</b></p>
+			<p>Most ponies are around 3-4 feet tall. Unicorns are lighter and frailer than their Earth Pony cousins, averaging out around 250-300 pounds. Your size is Small.</p>
+			<p><b>Speed</b></p>
+			<p>Your base walking speed is 30 feet.</p>
+			<p><b>Languages</b></p>
+			<p>You can speak, read, and write Pony.</p>
+			<p><b>Latent Magic</b></p>
+			<p>Even the most magically inept Unicorn can manipulate magic to a minor extent and often use it to navigate the world around them. You have the ability to cast Prestidigitation and Mage Hand at will.</p>
+			<p><b>Hooves</b></p>
+			<p>Your hooves are natural weapons. If you strike with them, you deal bludgeoning damage equal to 1d6+ your Strength modifier.</p>			
+		</description>
+		<rules>
+			<stat name="wisdom" value="2" />
+			<stat name="dexterity" value="2" />
+			<stat name="strength" value="-1" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_LANGUAGE_PONY" />
+			<grant type="Racial Trait" id="ID_LF_MLP_RACIAL_TRAIT_UNICORN_LATENT_MAGIC" />
+			<grant type="Racial Trait" id="ID_LF_MLP_RACIAL_TRAIT_EARTH_PONY_HOOVES" />
+		</rules>
+	</element>
+	<element name="Latent Magic" type="Racial Trait" source="My Little Pony: Friendship is Magic" id="ID_LF_MLP_RACIAL_TRAIT_UNICORN_LATENT_MAGIC">
+		<description>
+			<p>Even the most magically inept Unicorn can manipulate magic to a minor extent and often use it to navigate the world around them. You have the ability to cast Prestidigitation and Mage Hand at will. </p>
+		</description>
+		<sheet>
+			<description>Even the most magically inept Unicorn can manipulate magic to a minor extent and often use it to navigate the world around them. You have the ability to cast Prestidigitation and Mage Hand at will. </description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_PRESTIDIGITATION" />
+			<grant type="Spell" id="ID_PHB_MAGE_HAND" />
+		</rules>
+	</element>
+	<element name="Pony" type="Language" source="My Little Pony: Friendship is Magic" id="ID_LANGUAGE_PONY">
+		<description>
+			<p>Language spoken in Equestria. </p>
+		</description>
+		<setters>
+			<set name="speakers">Earth Pony, Pegasus, Unicorn</set
+		</setters>
+	</element>
+</elements>

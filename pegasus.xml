@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.2">
+			<file name="pegasus.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/pegasus.xml" />
+		</update>
+	</info>	
+	<element name="Pegasus" type="Race" source="My Little Pony: Friendship is Magic" id="ID_LF_MLP_RACE_PEGASUS">
+		<description>
+			<p>You are a Pegasus, a winged pony with the ability of flight. Fast and nimble, you possess the ability to effortlessly soar through the skies and walk on the clouds themselves.</p>
+			<p><b>Ability Score Increase</b></p>
+			<p>Your Dexterity increases by 2. Your Charisma increases by 1.</p>
+			<p><b>Age</b></p>
+			<p>Ponies in Equestria have a similar lifespan to humans in our world. A pony reaches maturity around 18 years old, while an 80 year old pony is nearing the end of its life. Alicorns are an exception, as they do not age.</p>
+			<p><b>Alignment</b></p>
+			<p>Most ponies are Good at heart, erring towards love and acceptance rather than hate. Though some may lose their way, redemption is never impossible for most. As with every group of complex people, there are sometimes exceptions to this.</p>
+			<p><b>Size</b></p>
+			<p>Most ponies are around 3-4 feet tall. Pegasi are the lightest of their cousins, reaching an average weight of just 200-250lbs. Your size is Small.</p>
+			<p><b>Speed</b></p>
+			<p>Your base walking speed is 30 feet.</p>
+			<p><b>Flight</b></p>
+			<p>You have a flying speed of 50 feet. To use this speed, you can't be wearing Medium or Heavy armor.</p>
+			<p><b>Languages</b></p>
+			<p>You can speak, read, and write Pony.</p>
+			<p><b>Cloudwalking</b></p>
+			<p>You can walk on the surface of clouds as if it were normal terrain.</p>
+			<p><b>Hooves</b></p>
+			<p>Your hooves are natural weapons. If you strike with them, you deal bludgeoning damage equal to 1d6+ your Strength modifier.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<stat name="charisma" value="1" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_LANGUAGE_PONY" />
+			<grant type="Racial Trait" id="ID_WOTC_POTA_RACIAL_TRAIT_AARAKOCRA_FLIGHT" />
+			<grant type="Racial Trait" id="ID_LF_MLP_RACIAL_TRAIT_EARTH_PONY_HOOVES" />
+			<grant type="Racial Trait" id="ID_LF_MLP_RACIAL_TRAIT_PEGASUS_CLOUDWALKING" />
+		</rules>
+	</element>
+	<element name="Cloudwalking" type="Racial Trait" source="My Little Pony: Friendship is Magic" id="ID_LF_MLP_RACIAL_TRAIT_PEGASUS_CLOUDWALKING">
+		<description>
+			<p>You can walk on the surface of clouds as if it were normal terrain.</p>
+		</description>
+		<sheet>
+			<description>You can walk on the surface of clouds as if it were normal terrain.</description>
+		</sheet>
+	</element>
+</elements>
