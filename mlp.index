@@ -8,7 +8,7 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/source.xml" />		
-		<file name="earth-pony.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/earth-pony.xml" />
+		<file name="earth_pony.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/earth_pony.xml" />
 		<file name="pegasus.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/pegasus.xml" />
 		<file name="unicorn.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/unicorn.xml" />
 	</files>
