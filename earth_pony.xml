@@ -50,8 +50,5 @@
 		<sheet>
 			<description>Lacking wings or magic to get things done, the Earth Ponies of Equestria have learned to adapt to their environment in many creative ways. You may take a free Feat.</description>	
 		</sheet>
-		<rules>
-			<grant type="Feat" id="ID_PHB_FEAT" />
-		</rules>
 	</element>
 </elements>
