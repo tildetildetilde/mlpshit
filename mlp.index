@@ -3,13 +3,13 @@
 	<info>
 		<name>My Little Pony: Friendship is Magic</name>
 		<update version="0.0.2">
-			<file name="mlp.index" url="https://raw.githubusercontent.com/tildetildetilde/main/mlp.index" />
+			<file name="mlp.index" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/mlp.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/tildetildetilde/main/source.xml" />		
-		<file name="earth-pony.xml" url="https://raw.githubusercontent.com/tildetildetilde/main/earth-pony.xml" />
-		<file name="pegasus.xml" url="https://raw.githubusercontent.com/tildetildetilde/main/pegasus.xml" />
-		<file name="unicorn.xml" url="https://raw.githubusercontent.com/tildetildetilde/main/unicorn.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/source.xml" />		
+		<file name="earth-pony.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/earth-pony.xml" />
+		<file name="pegasus.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/pegasus.xml" />
+		<file name="unicorn.xml" url="https://raw.githubusercontent.com/tildetildetilde/mlpshit/unicorn.xml" />
 	</files>
 </index>
