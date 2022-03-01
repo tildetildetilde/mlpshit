@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.2">
+			<file name="source.xml" url="https://raw.githubusercontent.com/tildetildetilde/gir/mlpshit/source.xml" />
+		</update>
+	</info>	
+	<element name="My Little Pony: Friendship is Magic" type="Source" source="Core" id="ID_LF_MLP">
+		<description>
+			<![CDATA[<p><strong>hi hal :)<strong/></p]]>
+		</description>
+		<setters>
+			<set name="abbreviation">MLP</set>
+			<set name="url">https://mlp.fandom.com/wiki/My_Little_Pony_Friendship_is_Magic_Wiki</set>
+			<set name="image">https://m.media-amazon.com/images/M/MV5BY2UxZDY0Y2UtNzgzYS00Y2UzLWEwOTktN2YyZjA2ZTE5ODljXkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_.jpg</set>
+			<set name="author" abbreviation="LF" url="https://mlp.fandom.com/wiki/Lauren_Faust?so=search">Lauren Faust</set>
+			<set name="official">false</set>
+			<set name="supplement">true</set>
+			<set name="release">20101010</set>
+		</setters>
+	</element>
+</elements>
