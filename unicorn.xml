@@ -53,7 +53,7 @@
 			<p>Language spoken in Equestria. </p>
 		</description>
 		<setters>
-			<set name="speakers">Earth Pony, Pegasus, Unicorn</set
+			<set name="speakers">Earth Pony, Pegasus, Unicorn</set>
 		</setters>
 	</element>
 </elements>
